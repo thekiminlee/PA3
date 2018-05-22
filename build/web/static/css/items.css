@@ -1,0 +1,51 @@
+#mainImage{
+	width: 80%;
+	height: auto;
+}
+
+#mainImageCell{
+	text-align: center;
+	border: 2px solid grey;
+	width: 500px;
+	height: 500px;
+}
+
+#description{
+	width: 500px;
+	text-align: center;
+	padding-left: 40px;
+}
+
+table{
+	width: 70%;
+	margin: auto;
+}
+
+img.thumbnails {
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 10%;
+}
+
+p{
+	text-align: left;
+}
+
+fieldset{
+	width: 60%;
+	margin: auto;
+}
+
+#purchase{
+	padding-top: 40px;
+}
+
+input:invalid{
+	background-color: #FDD;
+}
+
+
+
+
