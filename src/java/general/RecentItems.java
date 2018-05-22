@@ -5,7 +5,7 @@
  */
 package general;
 
-import org.jboss.weld.util.collections.ArraySet;
+import java.util.ArrayList;
 
 
 
@@ -14,11 +14,11 @@ import org.jboss.weld.util.collections.ArraySet;
  * @author kimin
  */
 public class RecentItems {
-    private ArraySet<RecentProduct> productNames;
+    private ArrayList<RecentProduct> productNames;
     private int counter = 0;
     
     public RecentItems(){
-        productNames = new ArraySet<>();
+        productNames = new ArrayList<>();
     }
     
     public void addItem(RecentProduct product){
@@ -41,7 +41,7 @@ public class RecentItems {
         productNames.remove(product);
     }
     
-    public ArraySet<RecentProduct> getNames(){
+    public ArrayList<RecentProduct> getNames(){
         return productNames;
     }
     
