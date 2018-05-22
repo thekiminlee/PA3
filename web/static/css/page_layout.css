@@ -1,0 +1,29 @@
+table, td, tr {
+	border: 1px solid black;
+	text-align: center;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+    margin: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+	position: relative;
+    -webkit-transform: scale(1.7);
+    -ms-transform: scale(1.7);
+    -o-transform: scale(1.7);
+    transform: scale(1.7);
+    z-index: 1000;
+}
+
+img.soulfood{
+	width: 150px;
+}
